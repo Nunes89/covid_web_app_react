@@ -1,5 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from "react";
 import api from "../../api";
+import { ContainerStyled } from "./style";
 
 function Main() {
   const [data, setData] = useState({});
