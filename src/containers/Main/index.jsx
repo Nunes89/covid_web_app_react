@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
 function Main() {
-  <div></div>;
+  return <div></div>;
 }
 
 export default memo(Main);
