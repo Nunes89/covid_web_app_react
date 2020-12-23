@@ -1,5 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from "react";
 import api from "../../api";
+import Board from "./components/Board";
+import Panel from "./components/Panel";
 import { ContainerStyled } from "./style";
 
 function Main() {
@@ -24,7 +26,6 @@ function Main() {
       <div className="mb-2">
         <Panel
           data={data}
-          updateAt={updateAt}
           onChange={handleChange}
           country={country}
           getCovidData={getCovidData}
