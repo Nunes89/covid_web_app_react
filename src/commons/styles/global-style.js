@@ -39,6 +39,9 @@ const globalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
+  .MuiTypography-root{
+    margin-right: 15px;
+  }
 `;
 
 export default globalStyle;
