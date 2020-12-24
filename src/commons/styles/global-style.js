@@ -39,7 +39,7 @@ const globalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
-  .MuiTypography-root{
+  span.MuiTypography-root{
     margin-right: 15px;
   }
 `;
